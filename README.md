@@ -12,11 +12,12 @@
 아래의 조건을 만족시키면서 하나의 모델을 만드세요  
 
 ### 필수사항
+![vgg16](images/vgg16_architecture.png)  
 1. VGG-16로 네트워크를 구성하고, MNIST 데이터를 RGB체널로 변경해주세요.
 2. (1)의 모델 구조에서 model initialization, inference 부분을  함수형태로 작성해주세요.
-3. (2)의 구조에서 Conv2_1의 입력을 첫번째 FC 입력에 추가해주는 구조를 추가해주세요. (Skip connection 구조)
+3. (2)의 구조에서 Conv2_1의 입력을 첫번째 Dense 입력에 추가해주는 구조를 추가해주세요. (Skip connection 구조)
 4. ```python test.py```을 통해 테스트 코드를 실행시켜 정확도를 출력해주세요.
-5. 정확도 및 모델 구조를 README.md에 간단히 요약해주세요.
+5. 정확도를 README.md에 간단히 요약해주세요.
 
 - 프레임워크(Tensorflow, Keras, Pytorch 등) 은 원하는 대로 선택해주시면 됩니다.
 
