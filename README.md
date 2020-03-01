@@ -19,8 +19,9 @@ by. 장원범, 조성만
 2. (1)의 모델 구조에서 model initialization, inference 부분을  함수형태로 작성해주세요. 
    (객체 형태로 작성하여도 무관합니다)
 3. (2)의 구조에서 Conv2_1의 입력을 첫번째 Dense 입력에 추가해주는 구조를 추가해주세요. (Skip connection 구조)
-4. ```python test.py```을 통해 테스트 코드를 실행시켜 정확도를 출력해주세요.
-5. 정확도와 구현한 모델의 ADT를 README.md에 간단히 요약해주세요.
+4. (3)에서 나온 모델을 RGB체널로 바꾼 MNIST로 학습해주세요.
+5. ```python test.py```을 통해 테스트 코드를 실행시켜 정확도를 출력해주세요.
+6. 정확도와 구현한 모델의 ADT를 README.md에 간단히 요약해주세요.
 
 - 프레임워크(Tensorflow, Keras, Pytorch 등) 은 원하는 대로 선택해주시면 됩니다.
   
